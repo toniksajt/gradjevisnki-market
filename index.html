@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Prodaja Građevinskog Materijala</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Online Prodaja Građevinskog Materijala</h1>
+</header>
+
+<!-- Navigacija koja se menja u zavisnosti od tipa korisnika -->
+<nav id="user-nav">
+    <!-- Ovaj meni će se menjati dinamički kroz JS -->
+</nav>
+
+<!-- Sekcija za prikazivanje različitih uloga korisnika -->
+<div id="welcome-message" class="container">
+    <h2>Dobrodošli na našu stranicu!</h2>
+    <p>Izaberite svoju ulogu i pristupite relevantnim funkcijama.</p>
+    
+    <p id="admin-message" style="display:none;">
+        <strong>Administrator:</strong> Imate pristup dodavanju prodavnica.
+    </p>
+    <p id="store-message" style="display:none;">
+        <strong>Prodavnica:</strong> Možete dodavati proizvode.
+    </p>
+    <p id="customer-message" style="display:none;">
+        <strong>Kupac:</strong> Možete pregledati i kupovati proizvode.
+    </p>
+</div>
+
+<footer>
+    <p>&copy; 2025 Građevinski Materijal Online Prodaja. Sva prava zadržana.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
